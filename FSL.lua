@@ -1,11 +1,7 @@
 if VIP_USER then
 	require 'VPrediction'
 	require 'Collision'
-end
-
-FSLVersion = "1.3"
-local latestVersion = nil
-local updateCheck = false
+endocal updateCheck = false
 
 function getDownloadVersion(response)
     latestVersion = response
